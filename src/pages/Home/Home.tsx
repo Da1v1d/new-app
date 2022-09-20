@@ -4,10 +4,6 @@ import Statistics from '../Statistics';
 import styles from './Home.styles';
 
 const Home: React.FC = () => {
-
-  const {counter:{value}} = useAppSelector(state => state)
-  console.log(value)
-
   return (
     <>
       <Statistics />
